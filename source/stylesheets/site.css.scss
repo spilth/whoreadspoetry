@@ -1,0 +1,60 @@
+body {
+  background: #fff;
+  color: #333;
+  font-family: "Merriweather", "Times New Roman", serif;
+  font-size: 16px;
+  max-width: 752px;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 1em;
+  line-height: 22px;
+}
+
+@media(min-width:768px) {
+  body {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Niconne", "Helvetica", sans-serif;
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+  line-height: 0.8em;
+  color: #ed473e;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+a {
+  color: #78719a;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navbar li {
+  display: inline;
+}
+
+ul.navbar li a {
+  padding-right: 1em;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
