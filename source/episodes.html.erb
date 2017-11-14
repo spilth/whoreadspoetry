@@ -2,11 +2,15 @@
 title: Episodes
 ---
 
-<h2>#2 Talia Lavin reads Guillaume Apollinaire</h2>
+<% data.episodes.each do |episode| %>
+  <h2>#<%= episode.number %> <%= episode.title %></h2>
 
-<p>In this episode, We listen to Talia Lavin read 'Zone' by Guillaume Apollinaire. Apollinaire was a French poet, playwright, short story writer, novelist, and art critic of Polish descent. Apollinaire is considered one of the foremost poets of the early 20th century, as well as one of the most impassioned defenders of Cubism and a forefather of Surrealism. We talk of loss of faith, transcendence and love.</p>
+  <p><%= episode.description %></p>
 
-<h2>#1 Coldplums reads Xin Qiji</h2>
+  <p>Guest: <%= link_to episode.guest.name, episode.guest.url %></p>
 
-<p>In this episode, We listen to Coldplums read and translate a lyrical song poem by Xin Qiji. Xin was a chinese military leader in exile and a master at 'Ci' form of poetry. We dig in to Coldplums's gift of scissoring out the most moving and beautiful pieces of verse from the universe of literature. The conversation takes us to the intense romance between two poets Paul Celan and Ingeborg Bachmann. A nostalgia for a time when people wrote letters is also shared. You can hopefully excuse us for that indulgence.</p>
+  <p>Poem: <%= link_to episode.poem.name, episode.poem.url %></p>
+
+  <p>Poet: <%= link_to episode.poet.name, episode.poet.url %></p>
+<% end %>
 
