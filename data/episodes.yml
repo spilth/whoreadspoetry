@@ -1,5 +1,37 @@
--
-  number: 2
+- number: 5
+  title: Hans Jürgen Balmes on translation and John Berger
+  description: |-
+    In this episode, We talk to Hans Balmes about translating poetry and his relationship with John Berger. Hans is based out of Frankfurt, Germany. He works as an Editorial Director at S. Fischer in Frankfurt, is co-editor of the literary magazine Neue Rundschau, and translates from the English, including works by John Berger, Robert Hass, W. S. Merwin, and Martine Bellen. This episode is first part of our conversation.
+  guest:
+    name: Hans Jürgen Balmes
+    url: https://twitter.com/hansbalmes
+- number: 4
+  title: Hans Jürgen Balmes reads W S Merwin
+  description: |-
+    In this episode, We continue our conversation with Hans Hans Balmes and begin by reading Traveling Together by W S Merwin. Traveling together is at once a poem about love and separation. We talk about how Merwin’s life and poetry are connected and what makes him relatable. There is beautiful part about similarities between the lives of Merwin and John Berger. We talk the gnarly exercise of putting a book together. Hans is currently in process of publishing german translation of Merwin's poetry.
+  guest:
+    name: Hans Jürgen Balmes
+    url: https://twitter.com/hansbalmes
+  poem:
+    name: Traveling Together
+    url: https://merwinconservancy.org/2017/02/travelling-together-by-w-s-merwin/
+  poet:
+    name: W S Merwin
+    url: https://merwinconservancy.org/about-w-s-merwin/
+- number: 3
+  title: Eve Asher reads Wallace Stevens
+  descrption: |-
+    In this episode, We listen to Eve Asher read 'The Emperor of Ice-Cream' by Wallace Stevens. Wallace Stevens was an American modernist poet. He won the pulitzer prize for his collected poems in 1955. Eve and I talk of death, the primary subject of this poem. She describes the multiple introductions to this poem through her life and how she came to appreciate it. We gossip about then famous and now dead writers getting in to a bar fight.
+  guest:
+    name: Eve Asher
+    url: https://github.com/eveadele
+  poem:
+    name: The Emperor of Ice-Cream
+    url: https://www.poetryfoundation.org/poems/45234/the-emperor-of-ice-cream
+  poet:
+    name: Wallace Stevens
+    url: https://www.poetryfoundation.org/poets/wallace-stevens
+- number: 2
   title: Talia Lavin reads Guillaume Apollinaire
   description: |-
     In this episode, We listen to Talia Lavin read 'Zone' by Guillaume Apollinaire. Apollinaire was a French poet, playwright, short story writer, novelist, and art critic of Polish descent. Apollinaire is considered one of the foremost poets of the early 20th century, as well as one of the most impassioned defenders of Cubism and a forefather of Surrealism. We talk of loss of faith, transcendence and love.
@@ -12,18 +44,13 @@
   poet:
     name: Guillaume Apollinaire 
     url: https://www.poetryfoundation.org/poets/guillaume-apollinaire
--
-  number: 1
+- number: 1
   title: Coldplums reads Xin Qiji
   description: |-
     In this episode, We listen to Coldplums read and translate a lyrical song poem by Xin Qiji. Xin was a chinese military leader in exile and a master at 'Ci' form of poetry. We dig in to Coldplums's gift of scissoring out the most moving and beautiful pieces of verse from the universe of literature. The conversation takes us to the intense romance between two poets Paul Celan and Ingeborg Bachmann. A nostalgia for a time when people wrote letters is also shared. You can hopefully excuse us for that indulgence.
   guest:
     name: coldplums
     url: https://twitter.com/coldplums
-  poem:
-    name: ???
-    url: ???
   poet:
     name: Xin Qiji
     url: https://www.britannica.com/biography/Xin-Qiji
-

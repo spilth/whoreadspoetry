@@ -9,8 +9,11 @@ title: Episodes
 
   <p>Guest: <%= link_to episode.guest.name, episode.guest.url %></p>
 
-  <p>Poem: <%= link_to episode.poem.name, episode.poem.url %></p>
+  <% if episode.poem.present? %>
+    <p>Poem: <%= link_to episode.poem.name, episode.poem.url %></p>
+  <% end %>
 
-  <p>Poet: <%= link_to episode.poet.name, episode.poet.url %></p>
+  <% if episode.poet.present? %>
+    <p>Poet: <%= link_to episode.poet.name, episode.poet.url %></p>
+  <% end %>
 <% end %>
-
