@@ -1,13 +1,17 @@
 body {
-  background: #fff;
+  background: #726f99;
   color: #333;
   font-family: "Merriweather", "Times New Roman", serif;
   font-size: 16px;
   max-width: 752px;
-  margin: auto;
-  margin-bottom: 2em;
-  padding: 1em;
+  margin: 0 auto;
   line-height: 22px;
+}
+
+.content {
+  background: #fff;
+  padding: 16px;
+  margin: 0;
 }
 
 @media(min-width:768px) {
@@ -21,25 +25,25 @@ h1, h2, h3, h4, h5 {
   font-family: "Courgette", "Helvetica", sans-serif;
   margin-top: 0.4em;
   margin-bottom: 0.5em;
-  line-height: 1em;
+  line-height: 1.2em;
   color: #ed473e;
 }
 
 h1 {
-  font-size: 3em;
-  text-align: center;
+  font-size: 2.2em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 a {
-  color: #78719a;
+  color: #8e9b82;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #ed473e;
+  text-decoration: underline;
 }  
 
 ul.navbar {
@@ -51,10 +55,12 @@ ul.navbar {
 ul.navbar li {
   display: inline;
   font-size: 16px;
+  font-weight: bold;
 }
 
 ul.navbar li a {
   padding-right: 1em;
+  text-transform: uppercase;
 }
 
 .text-right {
@@ -63,4 +69,18 @@ ul.navbar li a {
 
 .text-center {
   text-align: center;
+}
+
+.subscriptions {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscription {
+  flex: 1 1 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

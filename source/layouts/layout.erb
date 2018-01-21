@@ -14,13 +14,16 @@
     <script src="https://use.fontawesome.com/488eaeeb3f.js"></script>
   </head>
   <body>
-    <ul class="navbar">
-      <li><a href="/">Home</a></li>
-      <li><a href="/episodes/">Episodes</a></li>
-      <li><a href="/subscribe/">Subscribe</a></li>
-      <li><a href="/about/">About</a></li>
-    </ul>
-    
-    <%= yield %>
+    <div class="content">
+      <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/episodes/">Episodes</a></li>
+        <li><a href="/subscribe/">Subscribe</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+
+      <%= yield %>
+    </div>
+
   </body>
 </html>
