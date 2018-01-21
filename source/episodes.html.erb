@@ -5,17 +5,19 @@ title: Episodes
 <h1><%= current_page.data.title %></h1>
 
 <% data.episodes.each do |episode| %>
-  <h2>#<%= episode.number %> <%= episode.title %></h2>
+  <% if episode.live? %>
+    <h2><%= episode.number %> - <%= episode.title %></h2>
 
-  <p><%= episode.description %></p>
+    <p><%= episode.description %></p>
 
-  <p>Guest: <%= link_to episode.guest.name, episode.guest.url %></p>
+    <p>Guest: <%= link_to episode.guest.name, episode.guest.url %></p>
 
-  <% if episode.poem.present? %>
-    <p>Poem: <%= link_to episode.poem.name, episode.poem.url %></p>
-  <% end %>
+    <% if episode.poem.present? %>
+      <p>Poem: <%= link_to episode.poem.name, episode.poem.url %></p>
+    <% end %>
 
-  <% if episode.poet.present? %>
-    <p>Poet: <%= link_to episode.poet.name, episode.poet.url %></p>
+    <% if episode.poet.present? %>
+      <p>Poet: <%= link_to episode.poet.name, episode.poet.url %></p>
+    <% end %>
   <% end %>
 <% end %>
