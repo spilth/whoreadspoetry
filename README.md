@@ -1,3 +1,5 @@
+[ ![Codeship Status for spilth/whoreadspoetry](https://app.codeship.com/projects/3a233db0-f102-0135-7fa9-7e8b0b698c0d/status?branch=master)](https://app.codeship.com/projects/271290)
+
 # Who Read Poetry? Web Site
 
 ## Getting Started
