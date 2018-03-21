@@ -13,13 +13,13 @@
     name: Dante
     url: https://www.poetryfoundation.org/poets/dante-alighieri
 - number: 6
-  title: Amy reads Robert Frost
-  live: false
+  title: Amy Lawless reads Robert Frost
+  live: true
   description: |-
-    In this episode, We talk to Amy...
+    In this episode, We read and discuss the death drive in "Stopping by Woods on a Snowy Evening" by Robert Frost. You get to hear this popular poem in a completely different albeit dark light. The conversation travels from hatred of poetry to peas and poetry as a form of rebellion. You will learn afresh that peas can not be eaten with ease. We reimagine Frost's darling poem and surmise the meaning of it as he may or may not have intended.
   guest:
-    name: Amy
-    url: ???
+    name: Amy Lawless
+    url: https://twitter.com/amylawless
   poem:
     name: Stopping by Woods on a Snowy Evening
     url: https://www.poetryfoundation.org/poems/42891/stopping-by-woods-on-a-snowy-evening
